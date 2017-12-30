@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C8405ECA-4F16-47AF-84F5-87A60F470E5F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HomeTutor</RootNamespace>
+    <AssemblyName>HomeTutor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\animate.min.css" />
+    <Content Include="assets\css\bootstrap-theme.css" />
+    <Content Include="assets\css\bootstrap-theme.min.css" />
+    <Content Include="assets\css\bootstrap.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\font-awesome.css" />
+    <Content Include="assets\css\font-awesome.min.css" />
+    <Content Include="assets\css\main.css" />
+    <Content Include="assets\css\prettyPhoto.css" />
+    <Content Include="assets\css\responsive.css" />
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\images\accordion1.png" />
+    <Content Include="assets\images\blog\avatar.jpg" />
+    <Content Include="assets\images\blog\avatar1.png" />
+    <Content Include="assets\images\blog\avatar2.png" />
+    <Content Include="assets\images\blog\avatar3.png" />
+    <Content Include="assets\images\blog\blog1.jpg" />
+    <Content Include="assets\images\blog\blog2.jpg" />
+    <Content Include="assets\images\blog\boy.png" />
+    <Content Include="assets\images\blog\boy2.png" />
+    <Content Include="assets\images\blog\boy3.png" />
+    <Content Include="assets\images\blog\comments_bg.png" />
+    <Content Include="assets\images\blog\gallery1.png" />
+    <Content Include="assets\images\blog\gallery2.png" />
+    <Content Include="assets\images\blog\gallery3.png" />
+    <Content Include="assets\images\blog\gallery4.png" />
+    <Content Include="assets\images\blog\gallery5.png" />
+    <Content Include="assets\images\blog\gallery6.png" />
+    <Content Include="assets\images\blog\girl.png" />
+    <Content Include="assets\images\blog\thumb1.jpg" />
+    <Content Include="assets\images\blog\thumb2.jpg" />
+    <Content Include="assets\images\blog\thumb3.jpg" />
+    <Content Include="assets\images\client1.png" />
+    <Content Include="assets\images\client2.png" />
+    <Content Include="assets\images\client3.png" />
+    <Content Include="assets\images\contact.png" />
+    <Content Include="assets\images\gallery\gallery1.jpg" />
+    <Content Include="assets\images\gallery\gallery2.jpg" />
+    <Content Include="assets\images\gallery\gallery3.jpg" />
+    <Content Include="assets\images\gallery\gallery4.jpg" />
+    <Content Include="assets\images\gallery\gallery5.jpg" />
+    <Content Include="assets\images\gallery\gallery6.jpg" />
+    <Content Include="assets\images\image_bg.png" />
+    <Content Include="assets\images\man1.jpg" />
+    <Content Include="assets\images\man2.jpg" />
+    <Content Include="assets\images\man3.jpg" />
+    <Content Include="assets\images\man4.jpg" />
+    <Content Include="assets\images\portfolio\full\item1.png" />
+    <Content Include="assets\images\portfolio\full\item2.png" />
+    <Content Include="assets\images\portfolio\full\item3.png" />
+    <Content Include="assets\images\portfolio\full\item4.png" />
+    <Content Include="assets\images\portfolio\full\item5.png" />
+    <Content Include="assets\images\portfolio\full\item6.png" />
+    <Content Include="assets\images\portfolio\full\item7.png" />
+    <Content Include="assets\images\portfolio\full\item8.png" />
+    <Content Include="assets\images\portfolio\recent\item1.png" />
+    <Content Include="assets\images\portfolio\recent\item2.png" />
+    <Content Include="assets\images\portfolio\recent\item3.png" />
+    <Content Include="assets\images\portfolio\recent\item4.png" />
+    <Content Include="assets\images\portfolio\recent\item5.png" />
+    <Content Include="assets\images\portfolio\recent\item6.png" />
+    <Content Include="assets\images\portfolio\recent\item7.png" />
+    <Content Include="assets\images\portfolio\recent\item8.png" />
+    <Content Include="assets\images\prettyPhoto\dark_rounded\btnNext.png" />
+    <Content Include="assets\images\prettyPhoto\dark_rounded\btnPrevious.png" />
+    <Content Include="assets\images\prettyPhoto\dark_rounded\contentPattern.png" />
+    <Content Include="assets\images\prettyPhoto\dark_rounded\default_thumbnail.gif" />
+    <Content Include="assets\images\prettyPhoto\dark_rounded\loader.gif" />
+    <Content Include="assets\images\prettyPhoto\dark_rounded\sprite.png" />
+    <Content Include="assets\images\prettyPhoto\dark_square\btnNext.png" />
+    <Content Include="assets\images\prettyPhoto\dark_square\btnPrevious.png" />
+    <Content Include="assets\images\prettyPhoto\dark_square\contentPattern.png" />
+    <Content Include="assets\images\prettyPhoto\dark_square\default_thumbnail.gif" />
+    <Content Include="assets\images\prettyPhoto\dark_square\loader.gif" />
+    <Content Include="assets\images\prettyPhoto\dark_square\sprite.png" />
+    <Content Include="assets\images\prettyPhoto\default\default_thumb.png" />
+    <Content Include="assets\images\prettyPhoto\default\loader.gif" />
+    <Content Include="assets\images\prettyPhoto\default\sprite.png" />
+    <Content Include="assets\images\prettyPhoto\default\sprite_next.png" />
+    <Content Include="assets\images\prettyPhoto\default\sprite_prev.png" />
+    <Content Include="assets\images\prettyPhoto\default\sprite_x.png" />
+    <Content Include="assets\images\prettyPhoto\default\sprite_y.png" />
+    <Content Include="assets\images\prettyPhoto\facebook\btnNext.png" />
+    <Content Include="assets\images\prettyPhoto\facebook\btnPrevious.png" />
+    <Content Include="assets\images\prettyPhoto\facebook\contentPatternBottom.png" />
+    <Content Include="assets\images\prettyPhoto\facebook\contentPatternLeft.png" />
+    <Content Include="assets\images\prettyPhoto\facebook\contentPatternRight.png" />
+    <Content Include="assets\images\prettyPhoto\facebook\contentPatternTop.png" />
+    <Content Include="assets\images\prettyPhoto\facebook\default_thumbnail.gif" />
+    <Content Include="assets\images\prettyPhoto\facebook\loader.gif" />
+    <Content Include="assets\images\prettyPhoto\facebook\sprite.png" />
+    <Content Include="assets\images\prettyPhoto\light_rounded\btnNext.png" />
+    <Content Include="assets\images\prettyPhoto\light_rounded\btnPrevious.png" />
+    <Content Include="assets\images\prettyPhoto\light_rounded\default_thumbnail.gif" />
+    <Content Include="assets\images\prettyPhoto\light_rounded\loader.gif" />
+    <Content Include="assets\images\prettyPhoto\light_rounded\sprite.png" />
+    <Content Include="assets\images\prettyPhoto\light_square\btnNext.png" />
+    <Content Include="assets\images\prettyPhoto\light_square\btnPrevious.png" />
+    <Content Include="assets\images\prettyPhoto\light_square\default_thumbnail.gif" />
+    <Content Include="assets\images\prettyPhoto\light_square\loader.gif" />
+    <Content Include="assets\images\prettyPhoto\light_square\sprite.png" />
+    <Content Include="assets\images\search_icon.png" />
+    <Content Include="assets\images\services\bg_services.jpg" />
+    <Content Include="assets\images\services\services1.png" />
+    <Content Include="assets\images\services\services2.png" />
+    <Content Include="assets\images\services\services3.png" />
+    <Content Include="assets\images\services\services4.png" />
+    <Content Include="assets\images\services\services5.png" />
+    <Content Include="assets\images\services\services6.png" />
+    <Content Include="assets\images\service\client1.png" />
+    <Content Include="assets\images\service\client2.png" />
+    <Content Include="assets\images\service\client3.png" />
+    <Content Include="assets\images\service\image_bg.png" />
+    <Content Include="assets\images\slider_one.jpg" />
+    <Content Include="assets\images\tab1.png" />
+    <Content Include="assets\images\tab2.png" />
+    <Content Include="assets\images\team-member.jpg" />
+    <Content Include="assets\images\testimonials1.png" />
+    <Content Include="assets\js\bootstrap.js" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\html5shiv.js" />
+    <Content Include="assets\js\jquery.isotope.min.js" />
+    <Content Include="assets\js\jquery.js" />
+    <Content Include="assets\js\jquery.prettyPhoto.js" />
+    <Content Include="assets\js\main.js" />
+    <Content Include="assets\js\respond.min.js" />
+    <Content Include="assets\js\wow.min.js" />
+    <Content Include="UI\Index.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Master\HomeTutorMaster.Master.cs">
+      <DependentUpon>HomeTutorMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\HomeTutorMaster.Master.designer.cs">
+      <DependentUpon>HomeTutorMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Master\HomeTutorMaster.Master" />
+    <Content Include="assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DAL\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1402</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1402/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
