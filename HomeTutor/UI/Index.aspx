@@ -14,6 +14,7 @@
 				  	</ol>
                     Deepak
 					<div class="carousel-inner">
+                        1
 						<div class="item active">
 							<img src="../assets/images/slider_one.jpg" class="img-responsive" alt=""> 
 					   </div>
