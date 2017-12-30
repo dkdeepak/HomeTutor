@@ -12,8 +12,9 @@
 					    <li data-target="#carousel-slider" data-slide-to="1"></li>
 					    <li data-target="#carousel-slider" data-slide-to="2"></li>
 				  	</ol>
-                    
+                    1
 					<div class="carousel-inner">
+                        Yogesh
 						<div class="item active">
 							<img src="../assets/images/slider_one.jpg" class="img-responsive" alt=""> 
 					   </div>
